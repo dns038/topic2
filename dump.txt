@@ -1,0 +1,6 @@
+/* в mysql создается база данных sample
+затем - exit
+следующие команды выполняются в командной строке */
+
+mysqldump example > example.sql
+mysql sample < example.sql
